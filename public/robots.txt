@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# /cases is an unstyled dev stub nothing links to. It is kept out of search by a
+# noindex meta tag on the page itself, deliberately NOT by a Disallow rule here:
+# a blocked URL cannot be crawled, so Google would never read the noindex, and a
+# blocked page can still be indexed from an external link. Allowing the crawl is
+# what lets the noindex do its job.
+
+# ⚠️ Replace with your own domain. `/setup` writes this line for you.
+# Sitemap: https://yourname.com/sitemap.xml

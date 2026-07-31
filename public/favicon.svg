@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Placeholder mark. Replace with your own.
+       The two fills track the light/dark brand color in src/index.css. When
+       /setup changes your brand color, it updates these hex values too (an SVG
+       favicon cannot read a CSS variable). -->
+  <style>
+    .tile { fill: #5b6472; }
+    @media (prefers-color-scheme: dark) {
+      .tile { fill: #a4adbb; }
+    }
+  </style>
+  <rect class="tile" width="32" height="32" rx="7" />
+</svg>

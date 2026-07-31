@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SVG first: it carries a prefers-color-scheme rule, so browsers that
+         theme their tab strip get the right color. Add a PNG fallback
+         (favicon-32.png, apple-touch-icon.png) when you make your own. -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme: light)"
+      content="#ffffff"
+    />
+    <!-- Both match --background in src/index.css, converted from oklch. -->
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme: dark)"
+      content="#0a0a0a"
+    />
+
+    <!-- ⚠️ These are the fallback tags. `/setup` fills them from your answers.
+         src/lib/use-page-meta.ts overrides them per route for crawlers that
+         render JS (Google does), but most social scrapers (LinkedIn, Slack,
+         WhatsApp) do not, so THESE are what a shared link shows. Keep them
+         accurate. The canonical and og:url must match `url` in
+         src/site.config.ts. -->
+    <title>Portfolio</title>
+    <meta name="description" content="Portfolio and selected work." />
+    <link rel="canonical" href="https://example.com/" />
+
+    <meta property="og:site_name" content="Portfolio" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example.com/" />
+    <meta property="og:title" content="Portfolio" />
+    <meta property="og:description" content="Portfolio and selected work." />
+    <meta name="twitter:card" content="summary" />
+
+    <script type="text/javascript">
+      // Restores the deep link that 404.html encoded as a query, so the SPA
+      // router sees the real path. Pairs with public/404.html.
+      (function () {
+        var l = window.location;
+        if (l.search[1] === "/") {
+          var decoded = l.search
+            .slice(1)
+            .split("&")
+            .map(function (s) {
+              return s.replace(/~and~/g, "&");
+            })
+            .join("?");
+          window.history.replaceState(
+            null,
+            null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      })();
+    </script>
+    <script type="text/javascript">
+      // Applies the theme before first paint, so the page never flashes light
+      // before React mounts. Dark is the default; a stored choice wins.
+      // Flip the comparison to make light the default.
+      (function () {
+        try {
+          var stored = localStorage.getItem("theme");
+          if (stored !== "light") document.documentElement.classList.add("dark");
+        } catch (e) {
+          document.documentElement.classList.add("dark");
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

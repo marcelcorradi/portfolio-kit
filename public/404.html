@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- GitHub Pages serves this file with a 200, so a crawler that does not
+         run the redirect below would index an empty page. Google honours this
+         tag on a 200 response, which is the only 404 signal a static host has.
+         "follow" still lets it crawl on to the real pages. -->
+    <meta name="robots" content="noindex, follow" />
+    <title>Page not found</title>
+    <script type="text/javascript">
+      // SPA fallback for GitHub Pages (rafgraph/spa-github-pages technique).
+      // Rewrites /cases/foo into a query the app decodes, so deep links and
+      // refreshes don't 404.
+      //
+      // 0  = custom domain or user site, served from the root.
+      // 1  = project site at youruser.github.io/your-repo — keep the repo
+      //      segment, and set `base: '/your-repo/'` in vite.config.ts to match.
+      var pathSegmentsToKeep = 0;
+      var l = window.location;
+      l.replace(
+        l.protocol +
+          "//" +
+          l.hostname +
+          (l.port ? ":" + l.port : "") +
+          l.pathname
+            .split("/")
+            .slice(0, 1 + pathSegmentsToKeep)
+            .join("/") +
+          "/?/" +
+          l.pathname
+            .slice(1)
+            .split("/")
+            .slice(pathSegmentsToKeep)
+            .join("/")
+            .replace(/&/g, "~and~") +
+          (l.search ? "&" + l.search.slice(1).replace(/&/g, "~and~") : "") +
+          l.hash
+      );
+    </script>
+  </head>
+  <body></body>
+</html>
