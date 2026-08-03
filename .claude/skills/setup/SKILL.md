@@ -15,7 +15,11 @@ Read `src/site.config.ts`. If it's already filled (`name` and `url` set), setup 
 
 ## The interview
 
-Ask in this order. **Question 1 changes how you speak for the rest of the session, so it comes first.** Use `AskUserQuestion`; batch questions that fit on one screen. Where a field is free text (name, email, links), it's fine to ask in plain text rather than forcing a choice box.
+Ask in this order. **Question 1 changes how you speak for the rest of the session, so it comes first.**
+
+**Use the right input for each question.** `AskUserQuestion` returns the *label of a chosen option*, not typed text, so it only works for the genuine multiple-choice steps (technical comfort, hosting, brand feel, typography). For every free-text field (name, role, bio, differentiator, email, links, domain), **just ask in plain chat and read the reply** — do not route these through `AskUserQuestion`, or the answer comes back empty. Batch the choice questions that fit on one screen; ask the text ones conversationally.
+
+**Never use a real person's name as an example.** When you illustrate a format (e.g. a title like "Name, Role"), use an obvious placeholder such as "Jane Doe" or "Your Name". Do not use the owner's name, or any real person you happen to know, in an example prompt — it's confusing and reads as a privacy slip. Wait for the owner to give their actual name.
 
 1. **Technical comfort** *(choice — sets the tone for everything after)*
    - "Comfortable with git, npm and editing code" → don't explain basic commands later.
@@ -46,6 +50,12 @@ Ask in this order. **Question 1 changes how you speak for the rest of the sessio
 ## What to write
 
 After the interview, apply the answers. Show the owner what you changed.
+
+**Voice rule for any text you write here** (title, description, bio): **never use a dash
+to join clauses** — no em dash (—), en dash (–), or hyphen as a sentence connector. It
+reads as AI-written. Use a period, comma, colon, or a middle dot `·` for title
+separators. This is the same rule the `portfolio-content` skill enforces; it applies to
+every word the site shows.
 
 - **`src/site.config.ts`** — `name`, `role`, `url` (blank if "decide later"), `description` (from the bio), `email`, `links`.
 - **`src/index.css`** — the four `BRAND` declarations, from the chosen hue (recipe in shadcn-tokens.md). Keep light darker, dark lighter, same hue.

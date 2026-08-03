@@ -89,6 +89,8 @@ It's worth pulling creative references — hero layouts, card treatments, timeli
 4. **Build** with tokens, composing shadcn components. Watch CSS specificity (type-selectors like `.section` vs element-selectors can cancel each other's padding/margins).
 5. **Critique again** against the quality floor: responsive to mobile (body never scrolls horizontally), visible keyboard focus, sufficient contrast (WCAG AA), reduced-motion respected. The site must pass its own audit.
 
+**Verify visually, not just from code.** Reading the JSX is not enough to catch what the owner will actually see — a wrong conditional can render the entirely wrong screen while the code looks fine. Run `npm run dev` and look at the page (take a screenshot if a headless browser is available; install a lightweight one if the task warrants it). At minimum, confirm the right screen renders for the current state: after setup, the real Home should show, not the getting-started screen.
+
 ## Copy in the design
 
 If a piece needs substantial words (case, home, about), route content to **portfolio-content**. For small UI text write it inline: specific and active ("Save changes", not "Submit"), named from the user's side, sentence case, no filler. Words are design material, not decoration.

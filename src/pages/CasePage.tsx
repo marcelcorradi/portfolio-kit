@@ -48,7 +48,7 @@ export default function CasePage() {
   // unknown slug gets the site defaults plus noindex, so a bad case URL is
   // never indexed as if it were a real page.
   usePageMeta({
-    title: study && (site.name ? `${study.title} — ${site.name}` : study.title),
+    title: study && (site.name ? `${study.title} · ${site.name}` : study.title),
     description: study?.summary,
     image: resolveCoverUrl(study?.cover),
     path: study && `/cases/${study.slug}`,

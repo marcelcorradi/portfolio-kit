@@ -54,10 +54,13 @@ export const site: SiteConfig = {
 /**
  * True once `/setup` has run. The blank Home checks this to decide whether to
  * show the getting-started screen or your real site.
+ *
+ * Gated on `name` only, not `url`: setup lets you defer the URL ("decide later"),
+ * and a local-only site must still render its real Home. The URL matters for the
+ * sitemap and absolute OG links, not for whether the site is "yours" yet.
  */
-export const isConfigured = (): boolean =>
-  site.name.trim() !== "" && site.url.trim() !== ""
+export const isConfigured = (): boolean => site.name.trim() !== ""
 
-/** "Jane Doe — Product Designer", or just the name if no role is set. */
+/** "Jane Doe, Product Designer", or just the name if no role is set. */
 export const defaultTitle = (): string =>
-  site.role ? `${site.name} — ${site.role}` : site.name
+  site.role ? `${site.name}, ${site.role}` : site.name

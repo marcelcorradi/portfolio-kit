@@ -17,7 +17,7 @@ import { site } from "@/site.config"
  */
 export default function NotFound() {
   usePageMeta({
-    title: site.name ? `Page not found — ${site.name}` : "Page not found",
+    title: site.name ? `Page not found · ${site.name}` : "Page not found",
     noIndex: true,
   })
 
