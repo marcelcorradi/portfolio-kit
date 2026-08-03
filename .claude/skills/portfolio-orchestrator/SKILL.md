@@ -35,15 +35,17 @@ Read the request and decide which specialist skill handles it. Many real tasks n
 
 Invoke the specialist skill via the Skill tool. Give it the project context it needs (which page, which case, the relevant decisions) so it doesn't re-derive everything.
 
-If a request is ambiguous about whether it's content or design, ask the owner one short clarifying question rather than guessing — a wrong route wastes a full pass.
+If a request is ambiguous about whether it's content or design, ask the owner one short clarifying question rather than guessing. A wrong route wastes a full pass.
 
-**Pace content work section by section.** When content for a page or case is being written, it happens **one section (content block) at a time**, validated with the owner before moving on — never a whole page dumped at once. Preserve this pacing when you coordinate: don't ask the content skill to produce everything in one go, and don't run the quality checklist on a half-built page as if it were final. Let each section land with the owner first.
+**Pace content work section by section.** When content for a page or case is being written, it happens **one section (content block) at a time**, validated with the owner before moving on, never a whole page dumped at once. Preserve this pacing when you coordinate: don't ask the content skill to produce everything in one go, and don't run the quality checklist on a half-built page as if it were final. Let each section land with the owner first.
+
+**A site usually wants a top nav and a footer.** The kit doesn't ship them (they'd carry someone else's identity), so the owner gets theirs built. When the Home is being built, don't wait for the owner to remember: suggest adding a top navigation and a footer, and let them decide. This is a suggestion, not an automatic build. The owner drives; you just make sure the obvious pieces of a real site aren't forgotten. (The kit ships a `sheet` component for a mobile nav drawer; the design skill builds the rest to the owner's look.)
 
 ## Quality checklist: run before calling anything "done"
 
-Portfolios fail for predictable reasons. Before you tell the owner a page or case is finished, run it against [references/quality-checklist.md](references/quality-checklist.md). This is derived from the "7 mistakes" that get portfolios rejected and from what recruiters actually look for. Don't skip it — the whole point of the skills-first approach is that quality is enforced systematically, not left to chance.
+Portfolios fail for predictable reasons. Before you tell the owner a page or case is finished, run it against [references/quality-checklist.md](references/quality-checklist.md). This is derived from the "7 mistakes" that get portfolios rejected and from what recruiters actually look for. Don't skip it: the whole point of the skills-first approach is that quality is enforced systematically, not left to chance.
 
-If the checklist surfaces a problem, fix it (or route it back to the right specialist) before presenting the result as done. Report honestly what passed and what didn't — if something is a known gap (e.g. a placeholder image, a case still needing a metric), say so plainly.
+If the checklist surfaces a problem, fix it (or route it back to the right specialist) before presenting the result as done. Report honestly what passed and what didn't. If something is a known gap (e.g. a placeholder image, a case still needing a metric), say so plainly.
 
 ## How to work with the owner
 
