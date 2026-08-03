@@ -1,11 +1,15 @@
-export type CaseType = "design-system" | "product-ai"
+/**
+ * The two kinds of case most portfolios mix. Optional and not used for
+ * rendering — it's a label for your own curation. Add your own values freely.
+ */
+export type CaseType = "client" | "authorial" | (string & {})
 
 export interface CaseFrontmatter {
   title: string
   summary: string
   date: string
   cover?: string
-  type: CaseType
+  type?: CaseType
   tags: string[]
   role?: string
   /** Human-readable period, e.g. "Sep 2025 to Jul 2026". Shown in the case header. */

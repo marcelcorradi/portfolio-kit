@@ -1,0 +1,58 @@
+Portfolio Kit — Commercial License
+Copyright (c) 2026 Marcel Corradi. All rights reserved.
+
+This is a commercial software product. Purchasing it grants you the rights
+described below. It is not open source.
+
+1. GRANT OF LICENSE
+
+Upon purchase, you (the "Licensee") are granted a non-exclusive,
+non-transferable license to use this kit (the "Software") to build and deploy
+portfolio websites, including:
+
+  (a) your own personal portfolio; and
+  (b) portfolio websites for your clients, as part of paid or unpaid work you
+      perform for them.
+
+There is no limit on the number of portfolio sites you may build under this
+license.
+
+2. RESTRICTIONS
+
+You may NOT:
+
+  (a) resell, sublicense, redistribute, or share the Software itself (the
+      source code, the skills, the templates, or any substantial portion of
+      them), whether modified or unmodified, as a product, template, kit, or
+      starter for others to build from;
+
+  (b) publish the Software, or a derivative of it intended to compete with it,
+      to any public repository, marketplace, or distribution channel;
+
+  (c) remove or alter this license or the copyright notice from copies of the
+      Software you retain or share.
+
+Deployed portfolio websites you build with the Software are yours (and your
+clients'); this restriction is about redistributing the kit, not the sites you
+make with it.
+
+3. OWNERSHIP
+
+The Software is licensed, not sold. The Licensor retains all right, title, and
+interest in and to the Software, including all intellectual property rights.
+
+4. NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+5. THIRD-PARTY COMPONENTS
+
+The Software builds on open-source components (React, Vite, Tailwind CSS,
+shadcn/ui, and others), each licensed under its own terms. This license covers
+only the original work in this kit, not those components, which remain under
+their respective licenses.
