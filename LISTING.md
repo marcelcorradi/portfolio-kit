@@ -26,7 +26,7 @@ its toolbar buttons.
 ```html
 <strong>Most portfolio templates hand you someone else's design and ask you to swap the text. This is different.</strong>
 
-Portfolio Kit is a production foundation plus a set of Claude Code skills that interview you, then design your pages and write your case studies <em>with</em> you. The result reads as yours, because it was built for you, not recolored from a demo.
+Portfolio Kit is a production foundation plus a set of Claude Code skills that interview you, then design your pages and write your case studies <em>with</em> you. The build, theming, content engine and deploy are already solved, so you skip the slow setup and go straight to making it yours. The result reads as yours, because it was built for you, not recolored from a demo.
 
 <h3>What's inside</h3>
 
