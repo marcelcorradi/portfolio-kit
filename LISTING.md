@@ -17,37 +17,40 @@ A portfolio site you build with AI, not a template you rename.
 
 ## Full Description
 
-**Most portfolio templates hand you someone else's design and ask you to swap the text.
-This is different.**
+Paste the HTML below into the Agensi description editor. Tags it accepts (verified
+Aug 2026): `<strong>`, `<em>`, `<ul>/<li>`, `<ol>/<li>`, `<h3>`. No nested lists, no
+`<code>` (so the four skills are flat `<li>`s and command names use `<strong>`). If the
+editor shows the tags literally instead of rendering them, fall back to typing and use
+its toolbar buttons.
 
-Portfolio Kit is a production foundation plus a set of Claude Code skills that interview
-you, then design your pages and write your case studies *with* you. The result reads as
-yours, because it was built for you, not recolored from a demo.
+```html
+<strong>Most portfolio templates hand you someone else's design and ask you to swap the text. This is different.</strong>
 
-### What's inside
-- **A production foundation** — Vite, React 19, Tailwind v4, shadcn/ui, TypeScript, dark
-  mode, per-route SEO, a sitemap generator, and a GitHub Pages deploy workflow. Wired up.
-- **A content engine** — write a case as a Markdown file, drop it in a folder, it
-  publishes. No CMS.
-- **Four skills that do the work:**
-  - `setup` runs a short interview and configures the whole site from your answers.
-  - `portfolio-orchestrator` holds your decisions and runs a quality checklist built from
-    the mistakes that get portfolios rejected.
-  - `portfolio-content` writes your cases with a proven structure, grounded only in facts
-    you give it — it refuses to invent numbers.
-  - `portfolio-design` builds your pages with an opinionated, anti-template design
-    philosophy, themed to a brand color you choose.
+Portfolio Kit is a production foundation plus a set of Claude Code skills that interview you, then design your pages and write your case studies <em>with</em> you. The result reads as yours, because it was built for you, not recolored from a demo.
 
-### How it works
-1. `npm install` and `npm run dev`.
-2. Run `/setup` — it asks who you are, what you do, how the site should feel.
-3. Ask it to build your home page, then write your first case, one section at a time.
+<h3>What's inside</h3>
 
-### What it is not
-Not a finished site you fill in — it starts blank on purpose. Not a click-to-deploy
-theme. Not a writing service. You build it in a conversation, and that takes an
-afternoon, not five minutes. If you want a template to rename in ten minutes, this isn't
-it, and that's the point.
+<ul>
+  <li><strong>A production foundation</strong> — Vite, React 19, Tailwind v4, shadcn/ui, TypeScript, dark mode, per-route SEO, a sitemap generator, and a GitHub Pages deploy workflow. Wired up.</li>
+  <li><strong>A content engine</strong> — write a case as a Markdown file, drop it in a folder, it publishes. No CMS.</li>
+  <li><strong>setup</strong> runs a short interview and configures the whole site from your answers.</li>
+  <li><strong>portfolio-orchestrator</strong> holds your decisions and runs a quality checklist built from the mistakes that get portfolios rejected.</li>
+  <li><strong>portfolio-content</strong> writes your cases with a proven structure, grounded only in facts you give it. It refuses to invent numbers.</li>
+  <li><strong>portfolio-design</strong> builds your pages with an opinionated, anti-template design philosophy, themed to a brand color you choose.</li>
+</ul>
+
+<h3>How it works</h3>
+
+<ol>
+  <li>Run <strong>npm install</strong> and <strong>npm run dev</strong>.</li>
+  <li>Run <strong>/setup</strong>. It asks who you are, what you do, how the site should feel.</li>
+  <li>Ask it to build your home page, then write your first case, one section at a time.</li>
+</ol>
+
+<h3>What it is not</h3>
+
+Not a finished site you fill in. It starts blank on purpose. Not a click-to-deploy theme. Not a writing service. You build it in a conversation, and that takes an afternoon, not five minutes. If you want a template to rename in ten minutes, this isn't it, and that's the point.
+```
 
 ## Compatibility Note
 Requires Node.js 18+ and Claude Code. Works with any SKILL.md-compatible agent, best
