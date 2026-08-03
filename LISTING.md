@@ -54,9 +54,10 @@ Requires Node.js 18+ and Claude Code. Works with any SKILL.md-compatible agent, 
 with Claude Code. No account or backend needed; deploys free to GitHub Pages.
 
 ## Pricing
-One-time. Launch at **$79** (founder price **$49** for the first buyers). Raise toward
-$149 once there are testimonials. It's on the "boilerplate that saves setup hours" shelf,
-not the $0–50 template shelf.
+One-time, **$79** list price. Agensi takes 30%, so net is **$55.30/sale**. Confirmed
+this over receiving-$79-net (which would need a $113 list price and push a review-less
+new listing into ShipFast/Makerkit territory). $79 keeps the card inviting enough to
+land the first sales and reviews; raise toward $113+ once there's social proof.
 
 ## Tags & Discovery
 Category: Frontend & Design.
