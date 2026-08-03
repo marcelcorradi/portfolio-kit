@@ -47,6 +47,8 @@ Portfolio Kit is a production foundation plus a set of Claude Code skills that i
   <li>Ask it to build your home page, then write your first case, one section at a time.</li>
 </ol>
 
+<p>And you keep going by asking. A top nav, a new section, a different hero, a completely different look: describe it and the skills build it, applying the same design philosophy to whatever you invent. It's a foundation to build on, not a fixed set of screens.</p>
+
 <h3>What it is not</h3>
 
 Not a finished site you fill in. It starts blank on purpose. Not a click-to-deploy theme. Not a writing service. You build it in a conversation, and that takes an afternoon, not five minutes. If you want a template to rename in ten minutes, this isn't it, and that's the point.
@@ -75,12 +77,16 @@ machine.
 ## FAQ
 - **Is this a template I just rename?** No. It's a foundation plus AI skills that build
   the site with you. Blank on purpose.
+- **Can I change the design and add my own sections later?** Yes, completely. The design
+  skill applies its philosophy to whatever you ask for, so you can add a nav, new
+  sections, a different hero, or change the whole look just by describing it. The starter
+  is a foundation, not a fixed set of screens.
 - **Do I need to code?** No, but you need Node.js and Claude Code installed. The skills
-  walk you through the commands and adapt to your technical comfort — designer or
+  walk you through the commands and adapt to your technical comfort, designer or
   developer.
 - **What do I actually get?** A complete project (foundation + skills + docs) as a ZIP.
   Unzip, `npm install`, run `/setup`.
-- **Can I use it for client work?** Yes — the license covers personal and client-project
+- **Can I use it for client work?** Yes. The license covers personal and client-project
   use. You just can't resell the kit itself.
 - **Updates?** Dependencies use caret ranges, so `npm install` picks up compatible
   updates. Major version bumps ship as updates you can pull. No lifetime-support promise.
