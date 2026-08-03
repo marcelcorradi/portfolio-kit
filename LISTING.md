@@ -34,8 +34,8 @@ Portfolio Kit is a production foundation plus a set of Claude Code skills that i
   <li><strong>A production foundation</strong> — Vite, React 19, Tailwind v4, shadcn/ui, TypeScript, dark mode, per-route SEO, a sitemap generator, and a GitHub Pages deploy workflow. Wired up.</li>
   <li><strong>A content engine</strong> — write a case as a Markdown file, drop it in a folder, it publishes. No CMS.</li>
   <li><strong>setup</strong> runs a short interview and configures the whole site from your answers.</li>
-  <li><strong>portfolio-orchestrator</strong> holds your decisions and runs a quality checklist built from the mistakes that get portfolios rejected.</li>
-  <li><strong>portfolio-content</strong> writes your cases with a proven structure, grounded only in facts you give it. It refuses to invent numbers.</li>
+  <li><strong>portfolio-orchestrator</strong> holds your decisions, routes the work, and runs a recruiter-focused quality checklist before anything is called done.</li>
+  <li><strong>portfolio-content</strong> writes your cases using a real portfolio-writing methodology, not improvised prose: the inverted pyramid, a hook formula, self-reflection, and the seven mistakes that get portfolios rejected. It is grounded only in facts you give it and refuses to invent numbers.</li>
   <li><strong>portfolio-design</strong> builds your pages with an opinionated, anti-template design philosophy, themed to a brand color you choose.</li>
 </ul>
 
