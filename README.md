@@ -5,7 +5,7 @@ A portfolio site you build *with AI*, not a template you rename.
 Most portfolio templates hand you someone else's design and ask you to swap the
 text. This is different. You get a solid technical foundation and a set of Claude
 Code skills that interview you, then design your pages and write your case studies
-*with* you — grounded in a real portfolio-writing methodology, in your voice, in
+*with* you. It's grounded in a real portfolio-writing methodology, in your voice, in
 your look. The result is a site that reads as yours, because it was built for you,
 not recolored from a demo.
 
@@ -27,13 +27,18 @@ not recolored from a demo.
   - `portfolio-design` — builds your pages with an opinionated, anti-template
     design philosophy, themed to a brand color you choose.
 
+You keep going by asking. A top nav, a new section, a different hero, a completely
+different look: describe it and the skills build it, applying the same design
+philosophy to whatever you invent. The kit is a foundation to build on, not a fixed
+set of screens.
+
 ## What it is not
 
 - Not a finished site you fill in. It starts **blank on purpose.**
 - Not a click-to-deploy theme. You build it in a conversation with Claude Code, and
   that takes an afternoon, not five minutes.
-- Not a writing service. The skills write *with* you and refuse to invent facts —
-  you supply the real work and numbers.
+- Not a writing service. The skills write *with* you and refuse to invent facts.
+  You supply the real work and numbers.
 
 If you want a pretty template to rename in ten minutes, this isn't it, and that's
 the point.
