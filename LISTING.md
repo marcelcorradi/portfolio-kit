@@ -77,10 +77,6 @@ machine.
 ## FAQ
 - **Is this a template I just rename?** No. It's a foundation plus AI skills that build
   the site with you. Blank on purpose.
-- **Can I change the design and add my own sections later?** Yes, completely. The design
-  skill applies its philosophy to whatever you ask for, so you can add a nav, new
-  sections, a different hero, or change the whole look just by describing it. The starter
-  is a foundation, not a fixed set of screens.
 - **Do I need to code?** No, but you need Node.js and Claude Code installed. The skills
   walk you through the commands and adapt to your technical comfort, designer or
   developer.
@@ -90,6 +86,10 @@ machine.
   use. You just can't resell the kit itself.
 - **Updates?** Dependencies use caret ranges, so `npm install` picks up compatible
   updates. Major version bumps ship as updates you can pull. No lifetime-support promise.
+- **Can I change the design and add my own sections later?** Yes, completely. The design
+  skill applies its philosophy to whatever you ask for, so you can add a nav, new
+  sections, a different hero, or change the whole look just by describing it. The starter
+  is a foundation, not a fixed set of screens.
 
 ## Assets still needed (open items)
 - [ ] Logo 512×512
