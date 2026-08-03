@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Internal sales material — versioned in the repo, but excluded from the
+# distribution ZIP (git archive honors export-ignore), so buyers never receive it.
+LISTING.md export-ignore
