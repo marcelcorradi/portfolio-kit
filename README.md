@@ -62,6 +62,14 @@ Then, in Claude Code, from this folder:
 
 When you're ready to publish, see [docs/deploy.md](docs/deploy.md).
 
+## Updating
+
+When a new version of the kit ships, you don't lose your work. In Claude Code, run
+**`/update`** and point it at the new ZIP. It applies only the kit's framework
+files and keeps your cases, colors, pages, and identity untouched. No git, no
+merging by hand. Full details in [docs/updating.md](docs/updating.md); what changed
+in each version is in [CHANGELOG.md](CHANGELOG.md).
+
 ## Docs
 
 - [docs/content-model.md](docs/content-model.md): how cases work, the frontmatter
@@ -70,13 +78,15 @@ When you're ready to publish, see [docs/deploy.md](docs/deploy.md).
   one sharp edge to know about).
 - [docs/deploy.md](docs/deploy.md): GitHub Pages, custom domains, and the two URL
   styles.
+- [docs/updating.md](docs/updating.md): applying a new kit version without losing
+  your work.
 
 ## The stack
 
 React 19 · Vite · Tailwind v4 · shadcn/ui · TypeScript · react-router · Lucide.
 A current, fast stack as of this release. Dependencies use caret ranges, so
-`npm install` picks up compatible updates. Major version bumps ship as repo
-updates you can pull.
+`npm install` picks up compatible updates. New kit versions ship as a ZIP you apply
+with `/update` (see [Updating](#updating)), which keeps your work intact.
 
 ## License
 

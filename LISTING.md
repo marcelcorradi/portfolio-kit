@@ -84,8 +84,10 @@ machine.
   Unzip, `npm install`, run `/setup`.
 - **Can I use it for client work?** Yes. The license covers personal and client-project
   use. You just can't resell the kit itself.
-- **Updates?** Dependencies use caret ranges, so `npm install` picks up compatible
-  updates. Major version bumps ship as updates you can pull. No lifetime-support promise.
+- **Updates?** When a new version ships, you run `/update` in Claude Code and point it
+  at the new ZIP. It applies the kit's fixes and keeps your work (cases, colors, pages)
+  untouched. No git or manual merging. No lifetime-support promise, but updates are
+  built to be painless.
 - **Can I change the design and add my own sections later?** Yes, completely. The design
   skill applies its philosophy to whatever you ask for, so you can add a nav, new
   sections, a different hero, or change the whole look just by describing it. The starter
