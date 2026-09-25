@@ -1,6 +1,6 @@
 ---
 name: update
-description: Applies a new version of the Portfolio Kit to this project without overwriting the buyer's work. Use it whenever the owner has a newer kit ZIP (a bugfix or a new release) and wants to bring their site up to date. It reads what changed, updates only the kit's framework files, and preserves the owner's cases, brand color, configured pages, and identity. Trigger it for "update the kit", "apply the new version", "I got a new kit ZIP", or "/update".
+description: Applies a new version of the Portfolio Kit to this project without overwriting the owner's work. Use it whenever the owner has a newer kit ZIP (a bugfix or a new release) and wants to bring their site up to date. It reads what changed, updates only the kit's framework files, and preserves the owner's cases, brand color, configured pages, and identity. Trigger it for "update the kit", "apply the new version", "I got a new kit ZIP", or "/update".
 ---
 
 # Update — apply a new kit version, keep the owner's work
@@ -43,7 +43,7 @@ You are about to overwrite files. Before anything, make sure the owner can undo 
 
 ### 3. Locate and unpack the new ZIP
 
-Ask the owner where the new kit ZIP is (the one they received). Unzip it into a temporary
+Ask the owner where the new kit ZIP is (the one they downloaded). Unzip it into a temporary
 directory outside the project (not into the project). This temp copy is the source of the
 new kit files; the project is the target.
 
@@ -51,9 +51,9 @@ new kit files; the project is the target.
 
 Work through [references/manifest.md](references/manifest.md):
 
-- **KIT files** → copy the new version over the project's copy. (Skip the two buyer-owned
-  data files that live inside `.claude/skills/` — the manifest names them.)
-- **BUYER files** → do not touch. Most won't even exist in the new ZIP.
+- **KIT files** → copy the new version over the project's copy. (Skip the two data files
+  that belong to the owner inside `.claude/skills/` — the manifest names them.)
+- **OWNER files** → do not touch. Most won't even exist in the new ZIP.
 - **MIXED files** → apply the surgical rule the manifest gives for each:
   - `src/index.css`: bring structural changes; keep the owner's four `/* BRAND */` values
     and font vars.
@@ -83,7 +83,7 @@ Run `npm install` (deps may have changed) then `npm run build`. It must pass.
 ## Never
 
 - Never overwrite `src/content/cases/`, `src/assets/`, `public/CNAME`, or the two
-  buyer-data files in the skills dir (`project-decisions.md`, `profile.md`).
+  owner-data files in the skills dir (`project-decisions.md`, `profile.md`).
 - Never replace a configured `Home.tsx`, or the owner's four BRAND colors, or their
   `site.config.ts` values.
 - Never skip the backup step, and never run a destructive overwrite without saying so.

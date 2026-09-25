@@ -1,11 +1,11 @@
 # Updating the kit
 
-You bought a ZIP and built your site on top of it. When a new version ships (a bugfix or
+You downloaded the kit and built your site on top of it. When a new version ships (a bugfix or
 new features), you don't lose your work. Here's how updates work and what to do.
 
 ## The short version
 
-1. You receive a new kit ZIP.
+1. Download the new kit ZIP from the [Releases page](https://github.com/marcelcorradi/portfolio-kit/releases/latest).
 2. In Claude Code, from your project, run **`/update`**.
 3. It asks where the new ZIP is, shows you what changed, backs you up, and applies only
    the kit's framework files. Your cases, colors, pages, and identity stay exactly as

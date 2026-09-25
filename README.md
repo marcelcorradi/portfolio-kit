@@ -48,6 +48,9 @@ the point.
 You'll need [Node.js](https://nodejs.org) and
 [Claude Code](https://www.claude.com/product/claude-code).
 
+Download the latest ZIP from the [Releases page](https://github.com/marcelcorradi/portfolio-kit/releases/latest) and unzip it into a new
+folder, or clone this repository. Then:
+
 ```bash
 npm install      # install dependencies
 npm run dev      # open the site; it tells you to run /setup
@@ -65,7 +68,7 @@ When you're ready to publish, see [docs/deploy.md](docs/deploy.md).
 ## Updating
 
 When a new version of the kit ships, you don't lose your work. In Claude Code, run
-**`/update`** and point it at the new ZIP. It applies only the kit's framework
+**`/update`** and point it at the new ZIP from the [Releases page](https://github.com/marcelcorradi/portfolio-kit/releases/latest). It applies only the kit's framework
 files and keeps your cases, colors, pages, and identity untouched. No git, no
 merging by hand. Full details in [docs/updating.md](docs/updating.md); what changed
 in each version is in [CHANGELOG.md](CHANGELOG.md).
@@ -88,6 +91,11 @@ A current, fast stack as of this release. Dependencies use caret ranges, so
 `npm install` picks up compatible updates. New kit versions ship as a ZIP you apply
 with `/update` (see [Updating](#updating)), which keeps your work intact.
 
+## Support
+
+The kit is free. If it helped you build your portfolio, you can support it by
+sending any amount via PayPal to marcelcorradi@hotmail.com.
+
 ## License
 
-See [LICENSE](LICENSE).
+MIT. See [LICENSE](LICENSE).

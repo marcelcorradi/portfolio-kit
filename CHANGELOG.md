@@ -1,11 +1,20 @@
 # Changelog
 
-Every version of the kit, newest first. When you receive a new ZIP, run `/update`
+Every version of the kit, newest first. When you download a new ZIP, run `/update`
 in Claude Code and it walks you through applying the changes below without touching
 your own work (your cases, your colors, your pages). See the "Updating the kit"
 section in [README.md](README.md).
 
 The version you currently have is recorded in `.claude/kit-version`.
+
+## 1.1.0
+
+The kit is now free.
+
+- Licensed under MIT (it was a commercial license).
+- Distributed as a ZIP on the GitHub Releases page.
+- Docs and the `update` skill say "owner" instead of "buyer". No framework changes,
+  so `/update` only refreshes the docs, the skills and the version.
 
 ## 1.0.0
 

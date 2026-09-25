@@ -58,5 +58,5 @@ afternoon, not five minutes.
 ## Docs
 
 Full documentation is in [README.md](README.md) and [docs/](docs/): the content
-model, how case figures work, and deployment. Licensed for personal and
-client-project use. See [LICENSE](LICENSE).
+model, how case figures work, and deployment. Free, under the MIT license. See
+[LICENSE](LICENSE).
